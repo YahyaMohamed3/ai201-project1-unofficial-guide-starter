@@ -1,0 +1,66 @@
+SOURCE_TITLE: Software Engineer Interview Preparation Guide - Tech Interview Handbook
+SOURCE_URL: https://www.techinterviewhandbook.org/software-engineering-interview-guide/
+SOURCE_TYPE: Interview preparation guide
+
+CONTENT:
+
+OVERVIEW
+
+A complete guide to preparing for software engineering interviews at top tech
+companies. Covers every stage from resume to offer negotiation.
+
+Steps to prepare:
+1. Maximize your chances of being shortlisted (resume)
+2. Find out the interview format
+3. Pick a programming language
+4. Practice coding interview problems
+5. Prepare for system design (mid/senior level)
+6. Prepare for behavioral interviews
+7. Negotiate the offer
+
+INTERVIEW FORMATS
+
+Quiz: Early-stage filter with clear-cut technical questions. Example: "What
+is the time complexity of bubble sort?" Administered by recruiters or automated.
+
+Online Coding Assessment: Algorithm problems on platforms like HackerRank.
+Candidates write code in an online interface. Common early in the process.
+
+Take-Home Assignment: Larger projects to demonstrate software design skills.
+More common at startups. Examples: build a kanban app, build a snake game.
+
+Phone Screen: Most common format. Video call with shared coding editor
+(CoderPad, CodePen). Usually no code execution allowed. Practice beforehand.
+
+Onsite: Final stage before offer. Multiple rounds covering coding, system
+design, and behavioral. May include whiteboard exercises. Can last several hours.
+
+PICKING A PROGRAMMING LANGUAGE
+
+Use the language you are most comfortable with. Most common choices:
+Python, Java, C++, JavaScript.
+
+Python is recommended for its conciseness and strong standard library.
+Do not learn a new language just for interviews.
+
+CODING INTERVIEW PREPARATION
+
+Recommended timeline: 3 months, 11 hours per week (2-3 hours per day).
+
+Study in order of priority:
+- Data structures and algorithms fundamentals
+- Common problem patterns (sliding window, two pointers, BFS/DFS, etc.)
+- Practice on LeetCode (most relevant for interviews)
+- Use Grind 75 to generate a study plan based on time available
+
+Key resources:
+- Grokking the Coding Interview (pattern-based approach)
+- AlgoMonster (synthesizes common question patterns)
+- Tech Interview Handbook coding best practices guide
+
+Mock interviews: Use interviewing.io to practice with real Google and
+Facebook engineers anonymously before the real thing.
+
+SYSTEM DESIGN INTERVIEWS
+
+Expected for mid-level and senior candidates. Tes

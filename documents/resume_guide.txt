@@ -1,0 +1,97 @@
+SOURCE_TITLE: Software Engineer Resume Guide - Tech Interview Handbook
+SOURCE_URL: https://www.techinterviewhandbook.org/resume/
+SOURCE_TYPE: Resume and projects guide
+
+CONTENT:
+
+OVERVIEW
+
+A strong resume is critical for getting shortlisted at top tech companies.
+Many qualified candidates fail to get interviews due to poorly structured
+resumes, not lack of qualifications.
+
+Four steps to a strong software engineering resume:
+1. Set up an ATS-friendly resume template
+2. Fill with well-framed content in a meaningful order
+3. Optimize with keywords from job descriptions
+4. Test using free tools
+
+RESUME STRUCTURE (in order)
+
+1. Professional summary / headline
+2. Contact information
+3. Skills (programming languages, frameworks, databases)
+4. Work Experience (reverse chronological)
+5. Education (put first if still in school or under 3 years experience)
+6. Projects
+7. Awards, Certifications (optional)
+
+PROFESSIONAL SUMMARY
+
+Keep under 50 words. Answer why you are a good fit. Use active voice and
+action words. Start with your job title noun (e.g. "Software Engineer").
+
+Example headline:
+"Senior Year student at University X with a focus on AI and ML. Interned
+at X companies in full stack and ML engineering roles."
+
+CONTACT INFORMATION
+
+Must-haves: name, phone, location, email, LinkedIn
+Good-to-haves: GitHub URL, personal website, competitive coding profile
+
+SKILLS SECTION
+
+Format: [Category] : [Skill | Skill | Skill]
+Include programming languages, frameworks, databases.
+
+WORK EXPERIENCE
+
+Format:
+[Company], [Location] | [Job Title] | [MM/YYYY - MM/YYYY]
+
+List accomplishments as:
+[Summary] : [Action] that resulted in [quantifiable outcome]
+
+PROJECTS SECTION
+
+Include at least 2 projects. Link each to GitHub or a live demo.
+Outline your specific contributions and the technologies used.
+
+Example:
+"Maintainer and lead engineer for Docusaurus v2, a static site generator
+powering documentation for React Native, Jest, and Relay. Used by 7,600+
+projects on GitHub."
+
+EDUCATION SECTION
+
+Format:
+[Degree], [Graduation Year]
+[University], [Location]
+GPA: X.XX / 4.0 (only list if above 3.5)
+Key achievements, leadership, awards
+
+KEYWORD OPTIMIZATION
+
+- Analyze job descriptions for must-have and nice-to-have skills
+- Add matching keywords to Skills, Work Experience, and Education sections
+- Use full names of abbreviations: "Amazon Web Services" not just "AWS"
+- Do not keyword stuff — a human will read the resume eventually
+- Tailor your resume for each application type
+
+RESUME TIPS
+
+- Keep to one page
+- Highlight a few strong achievements rather than many average ones
+- Use standard fonts: Arial, Calibri, or Garamond, minimum 10pt
+- Create in Google Docs or Microsoft Word, submit as PDF
+- Do not use graphic design tools or online resume builders
+- Reduce margins to 0.5 inches rather than using headers/footers
+
+COVER LETTER
+
+- Tailor to each company and role
+- Do not repeat your resume — complement it
+- Structure: hook, your value, brief relevant story
+- Keep under one page
+- Proofread carefully

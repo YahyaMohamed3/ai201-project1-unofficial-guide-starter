@@ -1,0 +1,56 @@
+SOURCE_TITLE: AWS Certified Cloud Practitioner
+SOURCE_URL: https://aws.amazon.com/certification/certified-cloud-practitioner/
+SOURCE_TYPE: Official certification page
+
+CONTENT:
+
+OVERVIEW
+
+The AWS Certified Cloud Practitioner validates foundational, high-level
+understanding of AWS Cloud, services, and terminology. It is a good starting
+point for individuals with no prior IT or cloud experience, or for
+non-technical employees who want cloud literacy.
+
+This certification is ideal for:
+- People switching careers into cloud from non-IT backgrounds
+- Line-of-business employees (sales, marketing, project management) who want
+  to communicate more effectively with technical teams
+- Anyone wanting an entry-level credential before pursuing associate-level certs
+
+EXAM DETAILS
+
+- Category: Foundational
+- Duration: 90 minutes
+- Format: 65 questions, multiple choice or multiple response
+- Cost: $100 USD
+- Testing: Pearson VUE testing center or online proctored exam
+- Validity: 3 years
+
+WHO SHOULD TAKE IT
+
+Designed for candidates new to cloud who may not have an IT background.
+Up to 6 months of AWS exposure is helpful but not required.
+
+HOW TO PREPARE (4-STEP PLAN)
+
+Step 1 - Know the exam: Review the official exam guide. Take the AWS
+Certification Official Practice Question Set and Pretest to identify gaps.
+
+Step 2 - Build knowledge: Enroll in digital courses. Practice hands-on with
+AWS Builder Labs, AWS Cloud Quest, and AWS Jam.
+
+Step 3 - Review and practice: Study each exam domain. Use exam-style questions
+and flashcards. Practice with AWS Builder Labs and AWS SimuLearn.
+
+Step 4 - Assess readiness: Take the AWS Certification Official Practice Exam
+before scheduling the real exam.
+
+NEXT STEPS AFTER EARNING THIS CERT
+
+Common next certifications:
+- AWS Certified Solutions Architect - Associate (cloud architect roles)
+- AWS Certified Developer - Associate (developer roles)
+- AWS Certified SysOps Administrator - Associate (systems administrator roles)
+
+These associate-level certifications advance you into cloud architect, cloud
+engineer, developer, and systems administrator careers.

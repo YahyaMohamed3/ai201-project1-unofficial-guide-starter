@@ -1,0 +1,42 @@
+SOURCE_TITLE: Tech Interview Handbook - Overview
+SOURCE_URL: https://github.com/yangshun/tech-interview-handbook
+SOURCE_TYPE: Resource overview
+
+CONTENT:
+
+OVERVIEW
+
+Tech Interview Handbook is a free, curated resource for technical interview
+preparation. Created by Yangshun Tay, ex-Meta Staff Engineer and author of
+Blind 75. Over 1,000,000 people have used this resource.
+
+The handbook covers all phases of a technical interview: applying for a job,
+passing interviews, and offer negotiation.
+
+WHAT IS COVERED
+
+- Coding interview best practices: do's and don'ts before, during, and after
+- Grind 75: curated LeetCode questions prioritized by importance
+- Algorithm cheatsheets categorized by topic
+- Step-by-step software engineer resume guide
+- Behavioral questions asked by top tech companies
+- Coding interview study plan with recommended weekly schedule
+
+WHO IT IS FOR
+
+- Candidates new to technical interviews
+- Experienced engineers returning to the job market
+- Anyone who wants to improve their technical interviewing skills
+
+KEY PHILOSOPHY
+
+Focus on practical content over just links. Covers algorithm questions plus
+non-technical and domain-specific interview content. Consistent practice is
+the key to success, not memorizing answers.
+
+TOOLS MENTIONED
+
+- Grind 75: study plan generator based on time available
+- Blind 75: original curated list of top LeetCode questions
+- AlgoMonster: pattern-based prep by Google engineers
+- interviewing.io: mock interviews with real engineers anonymously

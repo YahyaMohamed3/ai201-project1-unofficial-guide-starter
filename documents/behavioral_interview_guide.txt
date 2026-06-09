@@ -1,0 +1,63 @@
+SOURCE_TITLE: 30 Most Common Software Engineer Behavioral Interview Questions
+SOURCE_URL: https://www.techinterviewhandbook.org/behavioral-interview-questions/
+SOURCE_TYPE: Interview preparation guide
+
+CONTENT:
+
+OVERVIEW
+
+Behavioral interviews may seem unstructured but interviewers are trying to get
+to know you better. There is always a set of common questions asked across top
+tech companies. Use the STAR format to answer them: Situation, Task, Action, Result.
+
+TOP 30 MOST COMMON BEHAVIORAL QUESTIONS
+
+- Why do you want to work for X company?
+- What are you looking for in your next role?
+- Tell me about a time when you had a conflict with a co-worker.
+- Tell me about a time you had to influence somebody else.
+- What is the most challenging aspect of your current project?
+- What was the most difficult bug you fixed in the past 6 months?
+- How do you tackle challenges? Name a difficult challenge, how you overcame it,
+  and what you learned.
+- What frustrates you?
+- Tell me about a time you had a disagreement with your manager.
+- Talk about a project you are most passionate about or did your best work on.
+- What does your best day of work look like?
+- What is the most constructive feedback you have received in your career?
+- What is something you had to persevere at for multiple months?
+- Tell me about a time you met a tight deadline.
+- What aspects of your work are most often criticized?
+- How have you handled criticism of your work?
+- What strengths do you think are most important for your job position?
+- What words would your colleagues use to describe you?
+- What would you hope to achieve in the first six months after being hired?
+- Tell me why you will be a good fit for the position.
+
+AMAZON BEHAVIORAL QUESTIONS
+
+- How do you deal with a failed deadline?
+- Tell me about a situation where you had a conflict with a teammate.
+- Tell me a situation where you would have done something differently.
+- What is the most difficult mistake you have made?
+- How would you improve Amazon's website?
+
+GENERAL TIPS FOR BEHAVIORAL INTERVIEWS
+
+- Use the STAR format: Situation, Task, Action, Result
+- Prepare 5-6 strong stories from past experiences that can answer multiple questions
+- Stories should show impact, leadership, conflict resolution, and growth
+- Tailor your answers to the company's values and mission
+- Practice out loud before the interview
+- Be specific — vague answers score poorly
+- Show self-awareness when discussing weaknesses or failures
+- Always end with what you learned or how you grew
+
+COMMON MISTAKES TO AVOID
+
+- Giving generic answers not tied to real experiences
+- Focusing on the team instead of your individual contribution
+- Not quantifying impact when possible
+- Rambling without a clear structure
+- Badmouthing previous employers or managers
+- Forgetting to mention the outcome of the situation

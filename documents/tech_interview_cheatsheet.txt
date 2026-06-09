@@ -1,0 +1,73 @@
+SOURCE_TITLE: Coding Interview Cheatsheet - Tech Interview Handbook
+SOURCE_URL: https://www.techinterviewhandbook.org/coding-interview-cheatsheet/
+SOURCE_TYPE: Technical interview guide
+
+CONTENT:
+
+As coding interviews mature over the years, there are now firmer expectations
+on how candidates should behave. These practices help you exhibit "hire"
+signals by displaying your ability to communicate well and deal with roadblocks.
+
+BEFORE THE INTERVIEW
+
+- Dress comfortably. T-shirts and jeans are acceptable at most places.
+- Prepare pen and paper for visualizing problems, especially trees and graphs.
+- Use earphones in a quiet environment. Avoid speakers to prevent echo.
+- Check internet connection, webcam, and audio ahead of time.
+- Set up editor shortcuts, autocompletion, and tab spacing in CoderPad or CodePen.
+- Turn off webcam if not required. It distracts and hogs bandwidth.
+- For phone screens: use earphones, put phone on table, request Zoom if possible.
+- For whiteboarding: leave space between lines of code in case you need to insert later.
+
+DURING THE INTERVIEW
+
+Step 1 - Self Introduction
+- Introduce yourself in under 1-2 minutes.
+- Sound enthusiastic. Speak with a smile.
+- Do not spend too long on introduction.
+
+Step 2 - Clarify the Question
+- Do not jump into coding immediately.
+- Ask at least 2-3 clarifying questions.
+- Paraphrase the question back to confirm understanding.
+- Clarify assumptions: Is the input a tree or graph? Can you modify the input?
+- Clarify input range: How big? Negative numbers? Nulls? Duplicates?
+- Work through a simplified example and confirm with the interviewer.
+
+Step 3 - Discuss Your Approach
+- Do not start coding before discussing your approach.
+- Explain multiple approaches at a high level and discuss tradeoffs.
+- Example: For Two Sum, a nested loop is O(n^2) time O(1) space; a hash map
+  is O(n) time and O(n) space. The hash map approach is generally better.
+- State time and space complexity for each approach.
+- Agree on the best approach before coding. Look for repeated computations
+  that can be reduced with caching.
+
+Step 4 - Code the Solution
+- Only start coding after the interviewer gives the green light.
+- Talk through what you are doing as you code.
+- Write actual working code, not pseudocode.
+- Use descriptive variable names. Use multiplesOfThree not arr.
+- Write modular code. Break problems into helper functions.
+- Ask permission before using built-in functions like reduce, filter, min, max.
+- If cutting corners, say so out loud and explain what you would do with more time.
+- Do not interrupt the interviewer. They are usually giving hints.
+- Do not copy-paste code without reviewing variable names.
+
+Step 5 - Review and Test
+- Do not announce you are done. Start reviewing immediately.
+- Scan for off-by-one errors and bugs.
+- Brainstorm edge cases: empty input, single item, very large input, negatives.
+- Step through your code manually with test cases.
+- Reiterate time and space complexity.
+- Explain tradeoffs and how you would improve the solution with more time.
+
+Step 6 - End of Interview
+- Ask thoughtful questions tailored to the company.
+- Thank the interviewer.
+- Do not leave without asking any questions.
+
+AFTER THE INTERVIEW
+
+- Write down the questions asked and your answers for future reference.
+- Send a follow-up email or LinkedIn message thanking the interviewer.

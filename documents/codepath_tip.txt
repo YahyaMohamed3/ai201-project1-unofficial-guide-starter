@@ -1,0 +1,68 @@
+SOURCE_TITLE: CodePath Technical Interview Prep (TIP) Course
+SOURCE_URL: https://www.codepath.org/courses/technical-interview-prep
+SOURCE_TYPE: Official program page
+
+CONTENT:
+
+OVERVIEW
+
+CodePath's Technical Interview Prep (TIP) is a no-cost 10-week virtual course
+led by professional engineers from companies like Google, Meta, and Amazon.
+It prepares students to solve algorithmic problems in technical interviews at
+top tech companies. The course meets twice a week and requires 5-13 hours per
+week depending on level.
+
+The course is offered at three levels:
+- TIP101: Intro (5-10 hours/week)
+- TIP102: Intermediate (6-10 hours/week)
+- TIP103: Advanced (8-13 hours/week)
+
+WHAT YOU LEARN
+
+- The UMPIRE Problem Solving Process: Understand, Match, Plan, Implement,
+  Review, Evaluate
+- Classic algorithms: sorting, searching, traversal, hashmaps
+- Big O notation and runtime complexity estimation
+- Common coding interview patterns
+- Data structures: Binary Trees, Heaps
+- Dynamic programming, recursion, combinations
+- Object Oriented Design and Systems Design basics
+- AI as a debugging and research assistant during problem solving
+
+COURSE LEVELS
+
+Intro (TIP101): Covers Python programming basics and foundational CS concepts.
+Adaptive pace. 10 units covering fundamentals and meta-learning for internships.
+
+Intermediate (TIP102): Focuses on the UMPIRE technique, advanced data
+structures, dynamic programming, and Big O. For students with basic programming
+and algorithm knowledge.
+
+Advanced (TIP103): Comprehensive 10-unit program covering Big O, recursion,
+dynamic programming, graph algorithms, and FAANG-level interview strategies.
+Requires foundational programming and data structure knowledge.
+
+ELIGIBILITY
+
+- 18 years or older
+- Enrolled in a CS or software-related degree program in the US
+- Completed at least one basic programming course
+- Knowledge of algorithms and data structures (for Intermediate/Advanced)
+- Available 5-13 hours per week including class time
+
+HOW TO APPLY
+
+Two steps:
+1. Fill out a 10-15 minute application about programming experience and goals.
+   Requires a GitHub account.
+2. Complete a 120-minute HackerRank calibration assessment.
+
+Most applicants hear back within two weeks of submitting the assessment.
+
+WHY IT MATTERS
+
+- Software engineer starting salaries average $100K+ in many markets
+- 70% of tech employers expect candidates to be comfortable with AI workflows
+- CodePath is a nonprofit backed by Amazon, Google, Meta, and Salesforce,
+  which is why the course is offered at no cost
+- Students receive a certificate of completion to share on LinkedIn

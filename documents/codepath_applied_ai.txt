@@ -1,0 +1,72 @@
+SOURCE_TITLE: CodePath Applied AI Engineering Pathway
+SOURCE_URL: https://www.codepath.org/courses/ai-engineering
+SOURCE_TYPE: Official program page
+
+CONTENT:
+
+OVERVIEW
+
+CodePath's Applied AI Engineering pathway equips students to code, build, and
+collaborate in AI-powered environments. The program embeds AI directly into
+programming practice rather than treating it as a separate topic. Students
+strengthen CS fundamentals while learning to use AI tools for debugging,
+scaffolding, and refinement, always with human oversight.
+
+The pathway is a 3-course progression:
+- AI110: Foundations of AI Engineering
+- AI201: Applications of AI Engineering
+- AI301: AI Open Source Capstone
+
+All courses are no-cost, 10 weeks, instructor-led, and virtual.
+Time commitment: 4-9 hours per week depending on level.
+
+WHAT YOU LEARN
+
+Foundations (AI110):
+- Data structures, algorithms, and OOP in Python
+- Critical evaluation and refinement of AI-generated code
+- Algorithmic thinking and prompt engineering
+- Machine learning literacy: supervised, unsupervised, generative models
+- Intro to RAG, agentic workflows, fine-tuning, and AI guardrails
+- Git and GitHub collaboration workflows
+
+Applications (AI201):
+- AI-augmented work in large-scale production systems
+- Intermediate programming with AI as a collaborator
+
+Advanced/Capstone (AI301):
+- Contribute to real open-source repositories using Claude Code
+- Spec-driven development and debugging
+- RAG, agents, fine-tuning, and guardrails at production level
+- Portfolio-ready public contributions employers can see
+
+WHAT AI-ASSISTED PROGRAMMING MEANS IN PRACTICE
+
+- Use AI to generate or refactor code from specifications
+- Debug with AI while verifying correctness and intent
+- Critique and improve AI outputs
+- Collaborate with AI throughout design, documentation, and testing
+- The human is always in charge, but AI is always in the loop
+
+HOW THIS HELPS IN INTERVIEWS
+
+Employers increasingly ask candidates to interpret, review, and explain
+AI-generated code. This course builds those skills alongside debugging,
+testing, and explaining design decisions. Students also build portfolio
+projects and open source contributions for technical interviews.
+
+ELIGIBILITY
+
+- 18 years or older, located in the US
+- Enrolled in a CS or software-related degree program
+- At least one intro programming course completed
+- 4-9 hours per week available including class time
+
+HOW TO APPLY
+
+Two steps:
+1. Fill out a 10-15 minute application. Requires a GitHub account.
+2. Complete a 90-minute HackerRank assessment.
+
+Decisions sent within two weeks of HackerRank submission.
+Contact: admissions@codepath.org

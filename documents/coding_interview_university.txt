@@ -1,0 +1,80 @@
+SOURCE_TITLE: Coding Interview University
+SOURCE_URL: https://github.com/jwasham/coding-interview-university
+SOURCE_TYPE: Study guide
+
+CONTENT:
+
+OVERVIEW
+
+Coding Interview University is a multi-month study plan for becoming a software
+engineer at a large company. The items listed prepare you for technical interviews
+at companies including Amazon, Facebook, Google, and Microsoft.
+
+You are not being hired for knowledge, but for how you apply the knowledge.
+
+PROGRAMMING LANGUAGE CHOICE
+
+Choose one language and stick with it for interviews. Solid choices are:
+- Python: Modern, expressive, less code to write in interviews
+- Java: Common in enterprise, well-supported in interviews
+- C++: Performant, common in systems and competitive programming
+
+You need to be very comfortable in your chosen language.
+
+TOPICS TO STUDY
+
+Core data structures:
+- Arrays: time O(1) for index/update, O(n) for insert/remove elsewhere
+- Linked Lists: singly and doubly linked
+- Stack: LIFO, trivial to implement with an array
+- Queue: FIFO, implement with linked list or fixed array
+- Hash Table: hashing with chaining or open addressing
+
+Algorithms:
+- Binary Search: O(log n), requires sorted input
+- Sorting: mergesort O(n log n), quicksort O(n log n) average,
+  selection/insertion sort O(n^2). Know stability and tradeoffs.
+- Graph traversal: BFS and DFS, know complexity and tradeoffs
+- Dynamic Programming: recognize problems that can be broken into subproblems
+- Recursion and backtracking
+
+Additional topics:
+- Big-O / Asymptotic analysis: express complexity in terms of input size
+- Trees: binary search trees, heaps, traversals (preorder, inorder, postorder)
+- Processes and Threads: difference, deadlock, concurrency basics
+
+COMMON MISTAKES TO AVOID
+
+1. Do not just watch videos and take notes without practicing problems.
+   Start coding interview questions while you are still learning each topic.
+   Apply what you learn immediately or you will forget it.
+
+2. Do not try to memorize answers. Practice recognizing problem patterns
+   and how to apply the right data structure or algorithm.
+
+3. Focus. Distractions waste valuable study time.
+
+BEHAVIORAL / INTERVIEW PREP
+
+Think of 20 interview questions you might face. Prepare a story, not just data.
+
+Common questions:
+- Why do you want this job?
+- What is a tough problem you solved?
+- What was the biggest challenge you faced at a project or job?
+- What did you learn from a past project?
+- How do you work best individually and as part of a team?
+
+QUESTIONS TO ASK THE INTERVIEWER
+
+- How large is your team?
+- What does your development cycle look like?
+- How are decisions made in your team?
+- What are you currently working on?
+- How is work/life balance on the team?
+
+RESOURCES
+
+Practice platforms: LeetCode, HackerRank, AlgoExpert
+Mock interviews: Pramp, interviewing.io
+Books: Cracking the Coding Interview, Programming Interviews Exposed
