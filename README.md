@@ -6,6 +6,21 @@ appears on every response regardless of what the model outputs.
 
 ---
 
+## Document Sources
+
+| # | Source | Type | URL or file path |
+|---|--------|------|-----------------|
+| 1 | AWS Certified Cloud Practitioner | Official cert page | https://aws.amazon.com/certification/certified-cloud-practitioner/ |
+| 2 | AWS Certified Solutions Architect Associate | Official cert page | https://aws.amazon.com/certification/certified-solutions-architect-associate/ |
+| 3 | CodePath Applied AI Engineering | Official program page | https://www.codepath.org/courses/ai-engineering |
+| 4 | CodePath Technical Interview Prep | Official program page | https://www.codepath.org/courses/technical-interview-prep |
+| 5 | Coding Interview University | GitHub README | https://github.com/jwasham/coding-interview-university |
+| 6 | Tech Interview Handbook - Interview Guide | Web guide | https://www.techinterviewhandbook.org/software-engineering-interview-guide/ |
+| 7 | Tech Interview Handbook - Resume Guide | Web guide | https://www.techinterviewhandbook.org/resume/ |
+| 8 | Tech Interview Handbook - Coding Cheatsheet | Web guide | https://www.techinterviewhandbook.org/coding-interview-cheatsheet/ |
+| 9 | Tech Interview Handbook - Overview | GitHub README | https://github.com/yangshun/tech-interview-handbook |
+| 10 | Behavioral Interview Questions | Web guide | https://www.techinterviewhandbook.org/behavioral-interview-questions/ |
+
 ## Retrieval Test Results
 
 **Query 1:** "What is the difference between AWS Cloud Practitioner and Solutions Architect?"
