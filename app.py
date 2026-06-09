@@ -1,6 +1,6 @@
 import gradio as gr
 from groq import Groq
-from retrieve import retrieve
+from retrieve import retrieve_hybrid
 import os
 from dotenv import load_dotenv
 
@@ -12,7 +12,7 @@ def handle_query(question):
         yield "Please enter a question.", ""
         return
 
-    chunks = retrieve(question)
+    chunks = retrieve_hybrid(question)
     context = "\n\n".join([c["text"] for c in chunks])
     sources = "\n".join(f"• {s}" for s in list(set([c["source"] for c in chunks])))
 
