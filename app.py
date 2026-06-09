@@ -29,12 +29,12 @@ SOURCES = [
     "tech_interview_handbook.txt"
 ]
 
-def handle_query(question, source_filter):
+def handle_query(question, source_filter, chat_history):
     if not question.strip():
-        yield "Please enter a question.", ""
+        yield chat_history, ""
         return
 
-    # Metadata filtering
+    # Metadata filtering or hybrid search
     if source_filter and source_filter != "All Sources":
         q_vec = model.encode(question).tolist()
         results = collection.query(
@@ -56,60 +56,88 @@ def handle_query(question, source_filter):
     context = "\n\n".join([c["text"] for c in chunks])
     sources = "\n".join(f"• {s}" for s in list(set([c["source"] for c in chunks])))
 
+    # Build messages with full conversation history
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are a helpful assistant for CS students preparing "
+                "for internships and technical interviews. "
+                "Answer ONLY using the provided context. "
+                "If the context does not contain enough information, say: "
+                "'I don't have enough information on that in my documents.' "
+                "Do not use your own knowledge or make anything up. "
+                "Format your answer using markdown."
+            )
+        }
+    ]
+
+    # Add previous conversation turns to messages
+    for turn in chat_history:
+        messages.append({"role": turn["role"], "content": turn["content"]})
+
+
+
+    # Add current question with retrieved context
+    messages.append({
+        "role": "user",
+        "content": f"Context:\n{context}\n\nQuestion: {question}"
+    })
+
+    # Stream response
     stream = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You are a helpful assistant for CS students preparing "
-                    "for internships and technical interviews. "
-                    "Answer ONLY using the provided context. "
-                    "If the context does not contain enough information, say: "
-                    "'I don't have enough information on that in my documents.' "
-                    "Do not use your own knowledge or make anything up. "
-                    "Format your answer using markdown."
-                )
-            },
-            {
-                "role": "user",
-                "content": f"Context:\n{context}\n\nQuestion: {question}"
-            }
-        ],
+        messages=messages,
         stream=True
     )
 
+    # Append new turn and stream
+    chat_history = chat_history + [
+    {"role": "user", "content": question},
+    {"role": "assistant", "content": ""}
+    ]
     answer = ""
     for chunk in stream:
         delta = chunk.choices[0].delta.content
         if delta:
             answer += delta
-            yield answer, sources
+            chat_history[-1]["content"] = answer
+            yield chat_history, sources
 
 with gr.Blocks(title="LaunchMap") as demo:
-    gr.Markdown("# LaunchMap")
+    gr.Markdown("#LaunchMap")
     gr.Markdown("### AI-powered internship prep guide for CS students")
+    gr.Markdown("Ask anything about technical interviews, AWS certifications, CodePath, or resume advice.")
 
     with gr.Row():
-        inp = gr.Textbox(
-            label="Your Question",
-            placeholder="e.g. What is the difference between AWS Cloud Practitioner and Solutions Architect?",
-            lines=2
-        )
         source_filter = gr.Dropdown(
             choices=SOURCES,
             value="All Sources",
             label="Filter by Source"
         )
 
-    btn = gr.Button("Ask", variant="primary")
+    chatbot = gr.Chatbot(label="LaunchMap", height=500)
 
     with gr.Row():
-        answer = gr.Markdown(label="Answer")
-        sources = gr.Textbox(label="Sources", lines=10)
+        inp = gr.Textbox(
+            label="Your Question",
+            placeholder="e.g. What is AWS Cloud Practitioner? Then ask: How do I prepare for it?",
+            lines=2
+        )
+        btn = gr.Button("Ask", variant="primary")
 
-    btn.click(handle_query, inputs=[inp, source_filter], outputs=[answer, sources])
-    inp.submit(handle_query, inputs=[inp, source_filter], outputs=[answer, sources])
+    sources = gr.Textbox(label="Sources", lines=4)
+
+    btn.click(
+        handle_query,
+        inputs=[inp, source_filter, chatbot],
+        outputs=[chatbot, sources]
+    )
+    inp.submit(
+        handle_query,
+        inputs=[inp, source_filter, chatbot],
+        outputs=[chatbot, sources]
+    )
 
 if __name__ == "__main__":
     demo.launch()
